@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  border:0;
+}
+
+body{
+  background-color: #F0F1F1;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Calc-Container{
+  height:75vh;
+  width: 100vh;
+  display: grid;
+  grid-template-columns: 85% 15%;
+  /* grid-row: auto (auto; */
+  border-color: black;
+  gap: 0;
+  background-color: #FEFFFE;
+  border-radius: 1rem;
+  border-bottom-right-radius: 20vh;
+  box-shadow: 1rem;
+  padding: 3rem;
+  
+}
+
+
+.Input-Container{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.InputBox-style{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap:.5rem
+
+}
+
+.InputPlaceholder-Style{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.6rem;
+  height: 3rem;
+  width: 7rem;
+  border: .01px solid #d4d4d4; 
+  padding: 1rem;
+  border-radius: .5rem;
+}
+
+.InputHeading-Style{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .7rem;
+  letter-spacing: .15rem;
+  color: #8d8d8d;
+
+
+}
+
+h3{
+  font-family: 'PoppinsBold';
+  font-size: 5rem;
+  color: #181818;
+  font-style: italic;
+}
+
+.time-Style{
+  color:#8a4ef8 ;
+}
+
+
+.horizontal-line {
+  border-bottom: 1px solid #d4d4d4;;
+  pad: 1rem;
+  border-top: 1px solid #d4d4d4;
+  margin-top: 1.6rem;
+  width:100%;
+}
+
+.S1-container{
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+}
+
+.button-Container{
+  display: flex;
+  flex-direction: row;
+  
+}
+.ResultHeading-Container{
+  display: flex;
+  flex-direction: row;
+}
+
+.circle-Container{
+  background-color: #8a4ef8;
+  border-radius: 50%;
+  width: 100%;
+  padding: 25%;
+}
+
+.blackcircle-Style{
+  background-color: #181818;
+
+}
+
+
+.circleContainer-Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  grid-row: 1 / span 2; /* Start from row 1 and span 2 rows */
+  grid-column: 2 / span 1; 
+  padding-top: 5rem;
+}
+
+@font-face {
+  font-family: 'PoppinsR'; /* Choose a font name */
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); /* Adjust the path to your font file */
+  
+  font-family: 'PoppinsBold'; /* Choose a font name */
+  src: url('./fonts/Poppins-ExtraBoldItalic.ttf') format('truetype'); /* Adjust the path to your font file */
+  
+}
