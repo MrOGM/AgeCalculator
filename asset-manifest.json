@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AgeCalculator/static/css/main.2e5986bc.css",
+    "main.js": "/AgeCalculator/static/js/main.e17695e7.js",
+    "static/media/Poppins-ExtraBoldItalic.ttf": "/AgeCalculator/static/media/Poppins-ExtraBoldItalic.73d4495be63ad83b25cc.ttf",
+    "static/media/Poppins-Regular.ttf": "/AgeCalculator/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "index.html": "/AgeCalculator/index.html",
+    "main.2e5986bc.css.map": "/AgeCalculator/static/css/main.2e5986bc.css.map",
+    "main.e17695e7.js.map": "/AgeCalculator/static/js/main.e17695e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e5986bc.css",
+    "static/js/main.e17695e7.js"
+  ]
+}
